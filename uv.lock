@@ -21,6 +21,7 @@ dependencies = [
     { name = "google-adk" },
     { name = "google-genai" },
     { name = "pandas" },
+    { name = "tenacity" },
 ]
 
 [package.metadata]
@@ -28,6 +29,7 @@ requires-dist = [
     { name = "google-adk", specifier = ">=1.25.0" },
     { name = "google-genai", specifier = ">=1.63.0" },
     { name = "pandas", specifier = ">=3.0.0" },
+    { name = "tenacity", specifier = ">=9.1.4" },
 ]
 
 [[package]]

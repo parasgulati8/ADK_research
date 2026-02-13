@@ -5,6 +5,14 @@ build/
 dist/
 wheels/
 *.egg-info
+*.pyc
+.venv/
 
 # Virtual environments
 .venv
+
+# Secrets
+.env
+
+# uv
+uv.lock
