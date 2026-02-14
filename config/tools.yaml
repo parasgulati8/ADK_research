@@ -1,0 +1,22 @@
+# Configuration for tools available to agents
+
+google_search:
+  enabled: true
+  max_results: 10
+  # Uses GOOGLE_SEARCH_API_KEY and GOOGLE_SEARCH_CX from .env
+
+github:
+  enabled: true
+  default_org: null
+  default_repo: null
+  # Uses GITHUB_TOKEN from .env
+
+sandbox:
+  enabled: true
+  timeout_seconds: 30
+  # Isolated environment for code execution (e.g. Docker or subprocess)
+
+web_scraper:
+  enabled: true
+  request_delay_seconds: 1
+  user_agent: "research-dev-swarm/1.0"

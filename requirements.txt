@@ -1,0 +1,5 @@
+pydantic>=2.0.0
+# Optional for tools:
+# requests
+# PyGithub
+# beautifulsoup4
