@@ -7,6 +7,9 @@ requires-python = ">=3.12"
 dependencies = [
     "google-adk[ui]>=1.25.0",
     "google-genai>=1.63.0",
+    "kiteconnect>=5.0.1",
+    "npm>=0.1.1",
     "pandas>=3.0.0",
+    "python-dotenv>=1.2.1",
     "tenacity>=9.1.4",
 ]
