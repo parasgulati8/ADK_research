@@ -5,8 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "google-adk[ui]>=1.25.0",
+    "google-adk[litellm,ui]>=1.25.0",
     "google-genai>=1.63.0",
+    "ipykernel>=7.2.0",
     "kiteconnect>=5.0.1",
     "npm>=0.1.1",
     "pandas>=3.0.0",
